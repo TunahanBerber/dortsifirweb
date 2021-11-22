@@ -1,0 +1,35 @@
+body {
+  overflow: hidden;
+}
+.col {
+  padding: 0;
+}
+
+.text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  color: white;
+  font-size: 16px;
+}
+
+.row {
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.row > * {
+  padding: 0px !important;
+}
+
+.overlay {
+  background-color: black;
+  height: 100%;
+  position: absolute;
+  opacity: 0.5;
+}
